@@ -1,0 +1,10 @@
+.vscode/
+.DS_store
+
+# Ignore build files:
+src/*.o
+
+bin/
+src/*.txt
+*.xyz
+
