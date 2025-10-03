@@ -6,10 +6,23 @@ Calculate the integrated surface water discharge from an elevation map and impos
 
 * Clone the landflow repository
 
-* Compile the code in the `landflow/src/` directory:
+* Compile the code in the `landflow/` directory:
 
     ```
     make all
     ``` 
+
+* Unzip the `ETOPO1_SouthAmerica.xyz.zip` file:
+
+    ```
+    unzip ETOPO1_SouthAmerica.xyz.zip
+    ```
+* Run `./extract_flow` in the same folder with `ETOPO1_SouthAmerica.xyz` file.
+
+* Run `./fluvial_Qr` to obtain the surface water discharge.
+
+* View the map with `python create_Qr_map.py`
+
+
 
 
