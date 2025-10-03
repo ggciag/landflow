@@ -23,6 +23,6 @@ Calculate the integrated surface water discharge from an elevation map and impos
 
 * View the map with `python create_Qr_map.py`
 
-
+![Simulation result](images/Qr_map.png)
 
 
